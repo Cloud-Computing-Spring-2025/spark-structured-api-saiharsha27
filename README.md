@@ -120,6 +120,3 @@ enriched_logs.withColumn("ts", F.to_timestamp("timestamp"))
 ## ✅ Conclusion
 
 This project showcases how **PySpark** can handle realistic music streaming data analytics. It also emphasizes filtering, ranking, and recommendation logic using Spark SQL functions and windowing operations.
-
----
-```
